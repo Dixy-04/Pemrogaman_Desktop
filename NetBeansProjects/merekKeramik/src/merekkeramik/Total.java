@@ -18,7 +18,7 @@ public class Total {
     void hitung(){
         int hitung;
         hitung = (int) (float) (Math.ceil(1000000 / (this.sisiA * this.sisiB * this.jumlah)) * this.harga ); 
-        System.out.println("Harga keramik = " + hitung );
+        System.out.println( hitung );
     }
 
 }
