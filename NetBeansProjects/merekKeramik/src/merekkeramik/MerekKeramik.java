@@ -23,6 +23,7 @@ public class MerekKeramik {
         kA.sisiB = 30;
         kA.jumlah = 10;
         kA.harga = 54000;
+        System.out.println("Harga keramik A = ");
         kA.hitung();
         
         Total kB = new Total();
@@ -30,6 +31,7 @@ public class MerekKeramik {
         kB.sisiB = 40;
         kB.jumlah = 5;
         kB.harga = 65000;
+        System.out.println("Harga keramik B = ");
         kB.hitung();
         
         Total kC = new Total();
@@ -37,6 +39,7 @@ public class MerekKeramik {
         kC.sisiB = 40;
         kC.jumlah = 8;
         kC.harga = 60000;
+        System.out.println("Harga keramik C = ");
         kC.hitung();
         
     }
